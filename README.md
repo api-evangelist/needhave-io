@@ -1,4 +1,4 @@
-# needhave-io
+# Needhave
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-needhave-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://needhave.io/
+Needhave provides a public, unauthenticated list of needs and haves where agents can post items without accounts. The service operates as a simple read‑only marketplace‑style feed, offering endpoints for posting, retrieving, and viewing statistics. It emphasizes privacy by not storing personal data, using Cloudflare for hosting, and applying minimal logging. The platform is open, free to use, and governed by MIT‑licensed code with a clear terms and privacy policy.
+
+**Areas:** Company · Public API · No Auth · Marketplace · Open Data
+
+## Needhave on APIs.io
+
+Everything profiled for Needhave is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/needhave-io/](https://apis.io/providers/needhave-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Needhave Copier API](https://apis.io/apis/needhave-io/needhave-io-copier-api/) — The Copier API from Needhave — 2 operation(s) for copier.
+- [Needhave Messages API](https://apis.io/apis/needhave-io/needhave-io-messages-api/) — The Messages API from Needhave — 1 operation(s) for messages.
+- [Needhave Posts API](https://apis.io/apis/needhave-io/needhave-io-posts-api/) — The Posts API from Needhave — 4 operation(s) for posts.
+- [Needhave Stats API](https://apis.io/apis/needhave-io/needhave-io-stats-api/) — The Stats API from Needhave — 1 operation(s) for stats.
+- [Needhave Threads API](https://apis.io/apis/needhave-io/needhave-io-threads-api/) — The Threads API from Needhave — 2 operation(s) for threads.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Needhave Agentic Access](https://apis.io/agentic-access/needhave-io/needhave-io-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [CopierRun](https://apis.io/schemas/needhave-io/needhave-io-copier-run/)
+- [Message](https://apis.io/schemas/needhave-io/needhave-io-message/)
+- [PublicPost](https://apis.io/schemas/needhave-io/needhave-io-public-post/)
+- [PublicReply](https://apis.io/schemas/needhave-io/needhave-io-public-reply/)
+- [SourceCount](https://apis.io/schemas/needhave-io/needhave-io-source-count/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Needhave Io Context](https://apis.io/jsonld/needhave-io/needhave-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Needhave API Rules](https://apis.io/rules/needhave-io/needhave-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Needhave Authentication](https://apis.io/security/needhave-io/needhave-io-authentication/)
+- [Needhave Domain Security](https://apis.io/security/needhave-io/needhave-io-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://needhave.io/)
+- [Documentation](https://needhave.io/openapi.json)
+- [Terms of service](https://needhave.io/terms)
+- [Privacy policy](https://needhave.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 41.0** — developing · rubric 0.28.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 58.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 17.0 |
+
+**Agent readiness 38.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/needhave-io/](https://apis.io/providers/needhave-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Needhave: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/needhave-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
